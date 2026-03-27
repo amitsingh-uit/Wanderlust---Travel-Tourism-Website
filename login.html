@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <!-- <link rel="stylesheet" href="./asset/css/style.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(loginimage.jpeg);
+            background-size: cover;
+        }
+        .text-center{
+            position: relative;
+            left: 650px;
+        }
+        .container {
+            width: 300px;
+            padding: 16px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        #a1{
+            position: relative;
+            left: 90px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center">Login Form</h1>
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Email id" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn">Login</button>
+        <a id="a1" href="#">Forget Password</a>
+        <a href="register.html"><button class="btn">Registration</button></a>
+    </div>
+</body>
+</html>
