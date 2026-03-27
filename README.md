@@ -22,4 +22,6 @@ Navigate to the project folder.
 Locate the index.html file.
 Right-click on index.html and select "Open with Browser" (Chrome, Edge, or Firefox).
 
-👤 AuthorAmit Singh B.Tech in Computer Science and Engineering United Institute of Technology, Prayagra
+👤 Author Amit Singh  
+ B.Tech in Computer Science and Engineering 
+ United Institute of Technology, Prayagraj
